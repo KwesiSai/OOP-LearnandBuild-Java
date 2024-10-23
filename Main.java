@@ -15,6 +15,9 @@ public class Main {
         System.out.println(gender);
         System.out.println(married);
         System.out.println(weight);
+        final int newage = 23;
+        //The final keyword declares a variable as a constant
+        System.out.println(newage);
         
 	}
     //Ignore this because it is a comment
