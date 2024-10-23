@@ -4,6 +4,6 @@ public class Main {
         System.out.print("The world dey bee");
         System.out.println(" It dey bee keke ");
         System.out.println(590454);
-
+        System.out.println(100 * 45);
 	}
 }
