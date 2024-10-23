@@ -6,4 +6,8 @@ public class Main {
         System.out.println(590454);
         System.out.println(100 * 45);
 	}
+    //Ignore this because it is a comment
+    /*
+     * This is a multiline comment which will also be ignored by the compiler
+     */
 }
