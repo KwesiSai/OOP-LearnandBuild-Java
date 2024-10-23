@@ -5,6 +5,14 @@ public class Main {
         System.out.println(" It dey bee keke ");
         System.out.println(590454);
         System.out.println(100 * 45);
+        String name = "Abraham";
+        int age = 22;
+        char gender = 'M';
+        boolean married = false;
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(gender);
+        System.out.println(married);
 	}
     //Ignore this because it is a comment
     /*
