@@ -7,7 +7,7 @@ public class Main {
         System.out.println(100 * 45);
         String name = "Abraham"; //String type is use for words or group of words and must be put in double quotes
         int age = 22; //int is used for integers, negative and positive integers
-        double weight = 73.55; //float is used for positive and negative decimals
+        float weight = 73.55f; //float is used for positive and negative decimals
         char gender = 'M'; //char is for single letters or characters and must be wrapped in single quotes
         boolean married = false; // Boolean is for storing boolean states, true or false
         System.out.println(name);
@@ -18,6 +18,12 @@ public class Main {
         final int newage = 23;
         //The final keyword declares a variable as a constant
         System.out.println(newage);
+        System.out.println("Hey there my dear " + name); //Printing text and variables 
+        String nickname = "Mafia";
+        String userName = name + nickname;
+        String username = name + " " + nickname;
+        System.out.println(username);
+        System.out.println(userName);
         
 	}
     //Ignore this because it is a comment
