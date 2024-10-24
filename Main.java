@@ -25,6 +25,13 @@ public class Main {
         System.out.println(username);
         System.out.println(userName);
         
+        //Variables and identifies
+        //real life code to calculate area of a rectangle
+        int length = 6;
+        int breadth = 4;
+        int area = length * breadth;
+
+        System.out.println("The area of the rectangle is: " + area);
 	}
     //Ignore this because it is a comment
     /*
