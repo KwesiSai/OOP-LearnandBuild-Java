@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class Main {
 	public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
 		// System.out.println("Hello World");
         // System.out.print("The world dey bee");
         // System.out.println(" It dey bee keke ");
@@ -36,8 +39,19 @@ public class Main {
         if(length > breadth){
             System.out.println("This is truly a rectangle");
         }
-
-	}
+        System.out.println("Enter your age");
+        int theAge = scanner.nextInt();  
+        
+        if(theAge < 10){
+            System.out.println("You are a child");
+        }
+        else if(theAge > 10 && theAge < 20){
+            System.out.println("You are not a child but you are a teen");
+        }
+        else{
+            System.out.println("Oh you've grown ankasa, not oluman but you are an adult");
+        }
+}
     //Ignore this because it is a comment
     /*
      * This is a multiline comment which will also be ignored by the compiler
