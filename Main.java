@@ -41,16 +41,24 @@ public class Main {
         }
         System.out.println("Enter your age");
         int theAge = scanner.nextInt();  
+        switch(theAge){
+            case 10: System.out.println("Oh my 10 year old.");
+            break;
+            case 20: System.out.println("Oh my 20 oldieeee");
+            break;
+            default: System.out.println("Well i don't know what to say about your age");
+        }
         
-        if(theAge < 10){
-            System.out.println("You are a child");
-        }
-        else if(theAge > 10 && theAge < 20){
-            System.out.println("You are not a child but you are a teen");
-        }
-        else{
-            System.out.println("Oh you've grown ankasa, not oluman but you are an adult");
-        }
+        // if(theAge < 10){
+        //     System.out.println("You are a child");
+        // }
+        // else if(theAge > 10 && theAge < 20){
+        //     System.out.println("You are not a child but you are a teen");
+        // }
+        // else{
+        //     System.out.println("Oh you've grown ankasa, not oluman but you are an adult");
+        // }
+
 }
     //Ignore this because it is a comment
     /*
