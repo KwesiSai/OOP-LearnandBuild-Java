@@ -47,7 +47,15 @@ public class Main {
             case 20: System.out.println("Oh my 20 oldieeee");
             break;
             default: System.out.println("Well i don't know what to say about your age");
+            break;
         }
+
+        int num = 5;
+        do{
+            System.out.println(num);
+            num++;
+        }
+        while (num<15);
         
         // if(theAge < 10){
         //     System.out.println("You are a child");
