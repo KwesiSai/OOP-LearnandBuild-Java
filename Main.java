@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args){
-        // Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 		// System.out.println("Hello World");
         // System.out.print("The world dey bee");
         // System.out.println(" It dey bee keke ");
@@ -90,6 +90,15 @@ public class Main {
         for(String j : NSPs){
             System.out.println(j);
 
+        }
+        String[] pets = new String[3];
+        System.out.println("Input the names of your pets");
+        for(i = 0; i < 3; i++){
+            pets[i] = scanner.nextLine();
+        }
+        System.out.println("So your pets are: ");
+        for(String j : pets){
+            System.out.println(j);
         }
 
 
