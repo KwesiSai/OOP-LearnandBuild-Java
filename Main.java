@@ -69,21 +69,27 @@ public class Main {
 
         //BREAK AND CONTINUE IN JAVA
         int i ;
-        for(i=0; i < 10; i++){
-           System.out.println("The current number is " + i );
-           if(i == 4)
-           break;
+        // for(i=0; i < 10; i++){
+        //    System.out.println("The current number is " + i );
+        //    if(i == 4)
+        //    break;
+        // }
+
+        // for(i=0; i < 10; i++){
+        //    if(i == 4){
+        //     continue;
+        //    }
+        //    System.out.println("The current number is " + i);
+        // }
+        String [] NSPs = {"Gabriel", "Prince" , "Abraham"};
+         NSPs[2] = "Dennis";
+
+        for(i = 0; i < NSPs.length; i++ ){
+            System.out.println(NSPs[i] + " is a national service personnel");
         }
 
-        for(i=0; i < 10; i++){
-           if(i == 4){
-            continue;
-           }
-           System.out.println("The current number is " + i);
-        }
 
-
-}
+    }
     //Ignore this because it is a comment
     /*
      * This is a multiline comment which will also be ignored by the compiler
