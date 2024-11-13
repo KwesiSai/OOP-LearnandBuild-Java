@@ -87,6 +87,10 @@ public class Main {
         for(i = 0; i < NSPs.length; i++ ){
             System.out.println(NSPs[i] + " is a national service personnel");
         }
+        for(String j : NSPs){
+            System.out.println(j);
+
+        }
 
 
     }
