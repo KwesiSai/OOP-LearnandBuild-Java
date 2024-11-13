@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 		// System.out.println("Hello World");
         // System.out.print("The world dey bee");
         // System.out.println(" It dey bee keke ");
@@ -30,32 +30,32 @@ public class Main {
         
         //Variables and identifies
         //real life code to calculate area of a rectangle
-        int length = 6;
-        int breadth = 4;
-        int area = length * breadth;
+        // int length = 6;
+        // int breadth = 4;
+        // int area = length * breadth;
 
-        System.out.println("The area of the rectangle is: " + area);
-        System.out.println(length < breadth);
-        if(length > breadth){
-            System.out.println("This is truly a rectangle");
-        }
-        System.out.println("Enter your age");
-        int theAge = scanner.nextInt();  
-        switch(theAge){
-            case 10: System.out.println("Oh my 10 year old.");
-            break;
-            case 20: System.out.println("Oh my 20 oldieeee");
-            break;
-            default: System.out.println("Well i don't know what to say about your age");
-            break;
-        }
+        // System.out.println("The area of the rectangle is: " + area);
+        // System.out.println(length < breadth);
+        // if(length > breadth){
+        //     System.out.println("This is truly a rectangle");
+        // }
+        // System.out.println("Enter your age");
+        // int theAge = scanner.nextInt();  
+        // switch(theAge){
+        //     case 10: System.out.println("Oh my 10 year old.");
+        //     break;
+        //     case 20: System.out.println("Oh my 20 oldieeee");
+        //     break;
+        //     default: System.out.println("Well i don't know what to say about your age");
+        //     break;
+        // }
 
-        int num = 5;
-        do{
-            System.out.println(num);
-            num++;
-        }
-        while (num<15);
+        // int num = 0;
+        // do{
+        //     System.out.println(num);
+        //     num++;
+        // }
+        // while (num < 5);
         
         // if(theAge < 10){
         //     System.out.println("You are a child");
@@ -66,6 +66,22 @@ public class Main {
         // else{
         //     System.out.println("Oh you've grown ankasa, not oluman but you are an adult");
         // }
+
+        //BREAK AND CONTINUE IN JAVA
+        int i ;
+        for(i=0; i < 10; i++){
+           System.out.println("The current number is " + i );
+           if(i == 4)
+           break;
+        }
+
+        for(i=0; i < 10; i++){
+           if(i == 4){
+            continue;
+           }
+           System.out.println("The current number is " + i);
+        }
+
 
 }
     //Ignore this because it is a comment
