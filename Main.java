@@ -2,11 +2,12 @@
 
 public class Main {
 	public static void main(String[] args){
-        newMethod("Emily"); //calling methods
+        String message = newMethod("Emily"); //calling methods
+        System.out.println(message);
 
     }
     //Defining methods
-    static void newMethod(String person){
-        System.out.println("Hey " + person + " we are onto methods now!!!" );
+    public static String newMethod(String person){
+        return "Hey " + person + " we are onto methods now!!!";
     }
 }        
