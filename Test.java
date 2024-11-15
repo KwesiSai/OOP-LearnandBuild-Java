@@ -5,5 +5,7 @@ public class Test {
         Test newObject = new Test();
         System.out.println(newObject.x);
         System.out.println(newObject.car);
+        Test secondObject = new Test();
+        System.out.println(secondObject.car);
     }
 }
