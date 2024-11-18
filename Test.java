@@ -14,8 +14,3 @@ public class Test {
         
     }
 }
-public class Car{
-    public void throttle(){
-        System.out.println("This if full throttle");
-    }
-}
