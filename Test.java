@@ -1,16 +1,22 @@
 public class Test {
-    int x = 15;
-    String car = "Toyota";
+    //Instance variables
+    int code;
+    String name;
+
+    //Constructor
+    public Test(String name, int code){
+        this.name = name;
+        this.code = code;
+    }
+    //class method
+    public void display(){
+        System.out.println(name);
+        System.out.println(code);
+
+    }
     public static void main(String[] args){
-        Test newObject = new Test();
-        newObject.x = 29;
-        System.out.println(newObject.x);
-        System.out.println(newObject.car);
-        Test secondObject = new Test();
-        System.out.println(secondObject.x);
-        Car newCar = new Car();
-        newCar.throttle();
-    
+        Test newTest = new Test("English", 101);
+        newTest.display();
         
     }
 }
