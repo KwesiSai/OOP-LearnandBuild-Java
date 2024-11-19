@@ -22,12 +22,13 @@ public class Test {
         
     }
 }
-
+//Abstraction
 abstract class Faculty {
+    //Access modifiers
     private String collegeName = "Engineering";
     private int collegeCode = 140;
 
-    abstract void facultyData();
+    abstract void facultyData(); //abstract method
     
     String getCollegeName() {
         return collegeName;
@@ -37,6 +38,7 @@ abstract class Faculty {
     }
 }
 
+//Inheritance 
 class fece extends Faculty {
     String facultyName = "Electrical";
     int facultyCode = 505;
