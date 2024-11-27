@@ -19,7 +19,7 @@ public class Test {
         newTest.display();
         fece objfac = new fece();
         objfac.facultyData();
-        Reptile Frog = new Reptile();
+        Amphibian Frog = new Reptile();
         Frog.showname();
         
     }
