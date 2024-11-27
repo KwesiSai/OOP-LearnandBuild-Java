@@ -4,8 +4,6 @@ public class Main {
 	public static void main(String[] args){
         String message = newMethod("Dear", "Emily"); //calling methods
         System.out.println(message);
-        Test oneobj = new Test();
-        System.out.println(oneobj.car);
 
         int myfactorial = factorial(4);
         System.out.println(myfactorial);

@@ -19,8 +19,27 @@ public class Test {
         newTest.display();
         fece objfac = new fece();
         objfac.facultyData();
+        Reptile Frog = new Reptile();
+        Frog.showname();
         
     }
+}
+//Polymorphism
+class Amphibian {
+    protected String scientificName = "aculutaoi";
+    protected String defaultNick = "bagayenra";
+
+    public void showname() {
+        System.out.println(scientificName + " " + defaultNick);
+    }
+}
+
+class Reptile extends Amphibian{
+    String orderName = "Reptilia";
+    public void showname(){
+        System.out.println(scientificName + " " + defaultNick + " " + orderName);
+    }
+
 }
 //Abstraction
 abstract class Faculty {
