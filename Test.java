@@ -21,8 +21,7 @@ public class Test {
         // objfac.facultyData();
         // Amphibian Frog = new Reptile();
         // Frog.showname();
-        employee newEmployee = new employee();
-        employee.department newdpt = newEmployee.new department();
+        employee.department newdpt = new employee.department();
         newdpt.profile();
 
         
@@ -79,13 +78,13 @@ class employee {
     String firstname = "Jacob";
     int age = 23;
 
-    class department{
+    static class department{
         String name = "Engineering";
         int office = 301;
         
         protected void profile(){
-            System.out.println(firstname);
-            System.out.println(age);
+            // System.out.println(firstname);
+            // System.out.println(age);
             System.out.println(name);
             System.out.println(office);
         }
