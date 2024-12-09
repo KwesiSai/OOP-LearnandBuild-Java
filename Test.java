@@ -15,12 +15,16 @@ public class Test {
 
     }
     public static void main(String[] args){
-        Test newTest = new Test("English", 101);
-        newTest.display();
-        fece objfac = new fece();
-        objfac.facultyData();
-        Amphibian Frog = new Reptile();
-        Frog.showname();
+        // Test newTest = new Test("English", 101);
+        // newTest.display();
+        // fece objfac = new fece();
+        // objfac.facultyData();
+        // Amphibian Frog = new Reptile();
+        // Frog.showname();
+        employee newEmployee = new employee();
+        employee.department newdpt = newEmployee.new department();
+        newdpt.profile();
+
         
     }
 }
@@ -69,3 +73,22 @@ class fece extends Faculty {
         System.out.println(facultyCode);
     }
 }
+
+//Inner Classes
+class employee {
+    String firstname = "Jacob";
+    int age = 23;
+
+    class department{
+        String name = "Engineering";
+        int office = 301;
+        
+        protected void profile(){
+            System.out.println(firstname);
+            System.out.println(age);
+            System.out.println(name);
+            System.out.println(office);
+        }
+    }
+}
+
