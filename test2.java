@@ -15,7 +15,9 @@ public class test2 {
             default: System.out.println("No observation made");
             break;
         }
-        
+        for(intensity var : intensity.values()){
+            System.out.println(var);
+        };
     }
 }
 interface Animal {
