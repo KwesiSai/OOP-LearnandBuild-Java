@@ -1,9 +1,13 @@
+import java.time.LocalDate;
+
 public class test2 {
     public static void main(String[] args) {
         Dog bruno = new Dog();
         bruno.makeSound();
+        LocalDate todaysDate = LocalDate.now();
 
         intensity malaria = intensity.HIGH;
+        System.out.println(todaysDate);
 
         switch(malaria){
             case HIGH: System.out.println("High intensity of plasmodium detected");
