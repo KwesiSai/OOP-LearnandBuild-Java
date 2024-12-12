@@ -34,6 +34,8 @@ public class test2 {
         for(intensity var : intensity.values()){
             System.out.println(var);
         };
+
+        System.out.println(evenNumbers.get(1));
     }
 }
 interface Animal {
