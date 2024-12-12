@@ -1,13 +1,17 @@
-import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class test2 {
     public static void main(String[] args) {
         Dog bruno = new Dog();
         bruno.makeSound();
-        LocalDate todaysDate = LocalDate.now();
+        LocalDateTime todaysDateTime = LocalDateTime.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd hh:mm:ss");
+        String formattedDate = formatter.format(todaysDateTime);
+
 
         intensity malaria = intensity.HIGH;
-        System.out.println(todaysDate);
+        System.out.println(formattedDate);
 
         switch(malaria){
             case HIGH: System.out.println("High intensity of plasmodium detected");
