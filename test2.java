@@ -6,7 +6,7 @@ public class test2 {
         Dog bruno = new Dog();
         bruno.makeSound();
         LocalDateTime todaysDateTime = LocalDateTime.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd hh:mm:ss");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("E, MMM dd yyyy hh:mm:ss");
         String formattedDate = formatter.format(todaysDateTime);
 
 
