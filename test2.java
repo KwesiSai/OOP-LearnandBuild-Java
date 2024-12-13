@@ -1,6 +1,7 @@
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class test2 {
     public static void main(String[] args) {
@@ -36,6 +37,18 @@ public class test2 {
         };
 
         System.out.println(evenNumbers.get(1));
+
+        LinkedList<String> familyMembers = new LinkedList<>();
+
+        familyMembers.add("Jacobatie");
+        familyMembers.add("Kekoule");
+        familyMembers.add("Madina");
+
+        for(String a : familyMembers){
+            System.out.println(a);
+        }
+        System.out.println(familyMembers.get(1));
+
     }
 }
 interface Animal {
