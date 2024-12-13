@@ -2,6 +2,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Collections;
 
 public class test2 {
     public static void main(String[] args) {
@@ -12,9 +13,11 @@ public class test2 {
         String formattedDate = formatter.format(todaysDateTime);
         ArrayList<Integer> evenNumbers = new ArrayList<>();
         evenNumbers.add(2);
-        evenNumbers.add(4);
+        evenNumbers.add(32);
         evenNumbers.add(14);
 
+        System.out.println(evenNumbers);
+        Collections.sort(evenNumbers);
         System.out.println(evenNumbers);
 
 
