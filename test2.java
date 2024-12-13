@@ -17,7 +17,7 @@ public class test2 {
         evenNumbers.add(14);
 
         System.out.println(evenNumbers);
-        Collections.sort(evenNumbers);
+        Collections.sort(evenNumbers); //Sorting Arraylist
         System.out.println(evenNumbers);
 
 
@@ -51,6 +51,7 @@ public class test2 {
             System.out.println(a);
         }
         System.out.println(familyMembers.get(1));
+        System.out.println(familyMembers.getFirst());
 
     }
 }
