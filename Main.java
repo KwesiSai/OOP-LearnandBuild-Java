@@ -2,11 +2,18 @@
 
 public class Main {
 	public static void main(String[] args){
-        String message = newMethod("Dear", "Emily"); //calling methods
-        System.out.println(message);
+        // String message = newMethod("Dear", "Emily"); //calling methods
+        // System.out.println(message);
 
-        int myfactorial = factorial(4);
-        System.out.println(myfactorial);
+        // int myfactorial = factorial(4);
+        // System.out.println(myfactorial);
+
+        Binary newConvertoBinary = new Binary();
+        System.out.println(newConvertoBinary.binaryToDecimal("0"));
+        System.out.println(newConvertoBinary.binaryToDecimal("1"));
+        System.out.println(newConvertoBinary.binaryToDecimal("0101"));
+        System.out.println(newConvertoBinary.binaryToDecimal("1010"));
+        System.out.println(newConvertoBinary.binaryToDecimal("10111010"));
 
     }
     //Defining methods
