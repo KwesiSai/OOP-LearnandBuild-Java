@@ -22,8 +22,9 @@ public class Main {
         myLinkedList.addNode(12);
         myLinkedList.addNode(9);
         myLinkedList.addNode(2);
-
         myLinkedList.display();
+        myLinkedList.deleteNode(12);
+        myLinkedList.deleteNode(20);
 
 
 
